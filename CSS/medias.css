@@ -1,0 +1,340 @@
+@media only screen and (max-width: 800px){
+
+    body .navbar{
+        height: 100%;
+        position: absolute;
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        z-index: 100000;
+    }
+
+    body .row{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+        margin-top: 100px;
+    }
+    .navbar .logo{
+        z-index: 98;
+    }
+    .navbar nav{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 60;
+        left: -100%;
+        background-color: hsla(229, 31%, 21%, 0.931);
+        transition: .5s;
+    }
+
+    .menu-icon{
+        display: block;
+        margin-right: 8%;
+        margin-top: 33px;
+    }
+
+    .menu-close{
+        margin-right: 8%;
+        margin-top: 33px;
+    }
+
+    #clos-btn-nav{
+        font-size: 1px;
+        z-index: 100;
+    }
+
+    #frst-el{
+        border-top: 0.6px solid rgba(255, 255, 255, 0.65);
+    }
+    .navbar nav ul{
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .navbar nav ul li{
+        margin: 0;
+        width: 80%;
+        align-self: center;
+        border-bottom: 0.6px solid rgba(255, 255, 255, 0.65);
+        padding: 20px 0px;
+    }
+
+    .navbar nav ul li a{
+        color: white;
+        font-size: 6.5vw;
+    }
+
+    .nav-btn{
+        width: 80%;
+        align-self: center;
+        margin-top: 30px;
+        background-color: transparent;
+        font-size: 32px;
+        border: 3px solid white;
+        color: white;
+    }
+
+
+    body .col-1{
+        margin: 40px 10% 0px 10%;
+        align-items: center;
+    }
+
+    body .col-1 h2{
+        text-align: center;
+    }
+    
+    .home-btn-c{
+        display: flex;
+        justify-content: center;
+    }
+    .hm-img{
+        width: 84%;
+        padding-left: 8.5%;
+    }
+
+    .color-box{
+        top: 85px;
+    }
+
+    .col-1 p{
+        text-align: center;
+    }
+
+    /* ------------------ Features Section --------------*/
+
+    .feature{
+        margin-top: 80px;
+    }
+
+    .p_1{
+        width: 60%;
+    }
+
+    .tab-links ul{
+        flex-direction: column;
+    }
+
+    .tabs{
+        width: 100%;
+    }
+
+    .tab .img-side img{
+        padding-left: 0%;
+    }
+
+    .tabs .tab{
+        flex-direction: column;
+    }
+    
+    .tab .img-side{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }   
+
+    .f-color{
+        align-self: flex-start;
+        top: 25%;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        transform: translateX(-40%);
+    }
+
+    .text-side{
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tab .text-side h1{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .tab .text-side p{
+        font-size: 18px;
+        align-self: center;
+        text-align: center;
+    }
+    .text-side .f-btn{
+        align-self: center;
+    }
+
+    body .tabs-download{
+        flex-direction: column;
+        position: relative;
+    }
+
+    body .tabs-d{
+        margin: 32px 9%;
+    }
+
+    #d_tab_2{
+        margin-top: 0px;
+    }
+
+    #d_tab_3{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .h1_1{
+        text-align: center;
+        color: var(--VeryDarkBlue);
+        font-size: 30px;
+        margin: 0 5% 10px 5%;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 85%;
+        align-items: center;
+    }
+
+    body .inputbox{
+        position: relative;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    body #form #email-id{
+        width: 90%;
+        padding: 14px 10px 14px 22px;
+    }
+
+    body #form #submit-subscribed{
+        width: 100%;
+        margin: 0;
+    }
+
+    body .question img{
+        height: 9px;
+    }
+
+    body .question h3{
+        font-size: 16px;
+    }
+
+    body .answer p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #form.invalid #text{
+        position: relative;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .subscribe h4{
+        font-size: 3.9vw;
+    }
+
+    .subscribe h1{
+        font-size: 7vw;
+        margin: 42px 5%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    body .col-1 h2{
+        font-size: 8vw;
+    }
+
+    #form #submit-subscribed{
+        height: 42px;
+        width: 100px;
+        font-size: 16px;
+    }
+    #form #email-id{
+        width: 170px;
+        padding: 14px 75px 14px 22px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .faq{
+        max-width: 80%;
+        align-self: center;
+    }
+    .question img{
+        height: 10px;
+    }
+
+    .question h3{
+        font-size: 18px;
+    }
+
+    .answer p{
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .footer{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer .logo-footer{
+        margin: 30px 0;
+    }
+
+    .side-1 ul{
+        flex-direction: column;
+    }
+
+    .side-1 ul li{
+        margin: 12px 0;
+        text-align: center;
+    }
+    .footer .side-1{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer .side-2{
+        padding-right: 0;
+        justify-content: center;
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .h1_1{
+        font-size: 8vw;
+    }
+
+    .p_1{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    body .home-btn{
+        width: 100px;
+        height: 39px;
+        outline: none;
+        border-radius: 4px;
+        font-weight: bold;
+        box-shadow: 0px 0px 5px rgba(218, 218, 218, 0.603);
+        transition: .5s;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .tab-links ul li a{
+        font-size: 15px;
+    }
+}
